@@ -1,0 +1,25 @@
+# Transcrição de Áudio para Texto
+
+Este projeto usa a biblioteca Whisper para transcrever arquivos de áudio para texto de maneira automática e simples. A interface gráfica foi desenvolvida com **Tkinter** e estilizada usando **Ttkbootstrap**.
+
+## Funcionalidades
+
+- Seleção de arquivos de áudio (`.mp3`, `.wav`, `.m4a`, `.ogg`).
+- Transcrição de áudios utilizando o modelo **Whisper** da OpenAI.
+- Salvamento automático do texto transcrito no diretório `Documentos` do usuário.
+- Interface gráfica moderna e fácil de usar.
+
+## Requisitos
+
+Certifique-se de ter as seguintes dependências instaladas:
+
+- Python 3.7+
+- Tkinter (incluso com a maioria das distribuições Python)
+- ttkbootstrap
+- whisper (modelo base)
+- threading
+
+Instale as dependências com o comando:
+
+```bash
+pip install ttkbootstrap openai-whisper
